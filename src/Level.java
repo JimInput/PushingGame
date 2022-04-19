@@ -97,7 +97,7 @@ public class Level {
         }
         else {
             printMoveErrorLine(direction);
-            System.err.print("\n{out of bounds error}");
+            System.err.print("\n{Out of bounds error}");
         }
         placeObject(player);
         
